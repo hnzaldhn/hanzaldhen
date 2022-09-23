@@ -8,7 +8,7 @@ a { text-decoration: none; }
   
 li { list-style: none; }
   
-img, a, time, span { display: block; }
+img, a, span { display: block; }
 
 html { font-family:poppins, sans-serif;}
   
@@ -44,6 +44,13 @@ article {
   color: #ffdb70;
   box-shadow: -4px 8px 24px #00000040;
   z-index: 1;
+}
+
+.nationality{
+  display: block;
+  color: #fafafa;
+  font-size: 14px;
+  font-weight: 400;
 }
   
 .icon_box::before {
@@ -178,7 +185,7 @@ main {
   margin-bottom: 2px;
 }
   
-.contact_info :is(.contact-link, time, address) {
+.contact_info :is(.contact-link, address) {
   color: #fafafa;
   font-size: 14px;
 }
@@ -511,7 +518,7 @@ main {
   text-overflow: ellipsis;
 }
   
-.contact_info :is(.contact-link, time, address) {
+.contact_info :is(.contact-link, address) {
   font-size: 14px;
   font-weight: 300px;
 }
